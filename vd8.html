@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>Home Products About Contact
+	<title>Display</title>
+	<style >
+		body {
+			font-family: Arial, Verdana, sans-serif;
+			color: #111111;
+		}
+        ul{
+            display: flex;
+            justify-content: space-around;
+        }
+
+		li {
+			display: inline;
+            background-color: aqua;
+            width: 100px;
+            height: 200px;
+		}
+
+		li.coming-soon {
+			display: none;
+		}
+	</style>
+</head>
+
+<body>
+	<ul>
+		<li>Home</li>
+		<li>Products</li>
+		<li class="coming-soon">Services</li>
+		<li>About</li>
+		<li>Contact</li>
+	</ul>
+</body>
+
+</html>

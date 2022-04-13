@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Box Shadow</title>
+	<style type="text/css">
+		.container{
+            display: flex;
+            justify-content: space-between;
+        }
+        p {
+			width: 100px;
+			height: 100px;
+			background-color: #f16f0a;
+			margin: 20px;
+			
+		}
+
+		p.one {
+			box-shadow: -5px -5px #0b0b0b;
+            flex: 1;
+		}
+
+		p.two {
+			box-shadow: 5px 5px 5px #090909;
+            flex: 1;
+		}
+
+		p.three {
+			box-shadow: 5px 5px 5px 5px #000000;
+            flex: 1;
+		}
+
+		p.four {
+			box-shadow: 0 0 10px #050505;
+            flex: 1;
+		}
+
+		p.five {
+			/* box-shadow: inset 0 0 10px #040404; */
+            flex: 1;
+            box-shadow: chartreuse 0 60px 44px;
+		}
+	</style>
+</head>
+
+<body>
+    <div class="container">
+	<p class="one">ONE</p>
+	<p class="two">TWO</p>
+	<p class="three">THREE</p>
+	<br />
+	<p class="four">FOUR</p>
+	<p class="five">FIVE</p>
+</div>
+</body>
+
+</html>
